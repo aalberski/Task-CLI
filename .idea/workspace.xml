@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfaf60f6-3478-46d0-811d-174d01e329a6" name="Changes" comment="Updated readme file to include project URL">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.txt" afterDir="false" />
+    <list default="true" id="cfaf60f6-3478-46d0-811d-174d01e329a6" name="Changes" comment="Updated readme.txt to README.txt">
+      <change beforePath="$PROJECT_DIR$/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,7 +117,7 @@
       <workItem from="1749603015121" duration="4155000" />
       <workItem from="1749650424588" duration="5646000" />
       <workItem from="1749832826398" duration="5214000" />
-      <workItem from="1749839078390" duration="611000" />
+      <workItem from="1749839078390" duration="692000" />
     </task>
     <task id="LOCAL-00001" summary="Added add, update, delete, mark, and list functions to CLI">
       <option name="closed" value="true" />
@@ -184,7 +183,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749839569561</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Updated readme.txt to README.txt">
+      <option name="closed" value="true" />
+      <created>1749839701802</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1749839701802</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -195,7 +202,8 @@
     <MESSAGE value="Removed existing data.json file" />
     <MESSAGE value="Added readme" />
     <MESSAGE value="Updated readme file to include project URL" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated readme file to include project URL" />
+    <MESSAGE value="Updated readme.txt to README.txt" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated readme.txt to README.txt" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TaskTracker$Task_Tracker.coverage" NAME="taskcli Coverage Results" MODIFIED="1749067532805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
