@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfaf60f6-3478-46d0-811d-174d01e329a6" name="Changes" comment="Removed existing data.json file" />
+    <list default="true" id="cfaf60f6-3478-46d0-811d-174d01e329a6" name="Changes" comment="Added readme" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,6 +32,9 @@
     &quot;accountId&quot;: &quot;eb8bc8f5-f0b5-4b7e-9337-50df5c117198&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 2
 }</component>
@@ -112,6 +115,7 @@
       <workItem from="1749603015121" duration="4155000" />
       <workItem from="1749650424588" duration="5646000" />
       <workItem from="1749832826398" duration="5214000" />
+      <workItem from="1749839078390" duration="399000" />
     </task>
     <task id="LOCAL-00001" summary="Added add, update, delete, mark, and list functions to CLI">
       <option name="closed" value="true" />
@@ -153,7 +157,15 @@
       <option name="project" value="LOCAL" />
       <updated>1749839034397</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added readme">
+      <option name="closed" value="true" />
+      <created>1749839477574</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1749839477574</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +174,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Added add, update, delete, mark, and list functions to CLI" />
     <MESSAGE value="Removed existing data.json file" />
-    <option name="LAST_COMMIT_MESSAGE" value="Removed existing data.json file" />
+    <MESSAGE value="Added readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added readme" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/TaskTracker$Task_Tracker.coverage" NAME="taskcli Coverage Results" MODIFIED="1749067532805" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
