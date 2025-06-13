@@ -1,7 +1,6 @@
-'''
-Author: Adam Alberski
-Date: 6/1/20225
-'''
+#Author: Adam Alberski
+#Date: 6/1/20225
+
 import argparse
 import datetime
 import json
@@ -77,18 +76,18 @@ def add_task(description, data) -> None:
     print("Task added successfully (ID: " + str(task_id) + ")")
 
 
-def update_task(id, description, data) -> None:
-    data[id]['description'] = description
-    data[id]['updatedAt'] = datetime.date.today().isoformat()
+def update_task(task_id, description, data) -> None:
+    data[task_id]['description'] = description
+    data[task_id]['updatedAt'] = datetime.date.today().isoformat()
 
-def delete_task(id, data) -> None:
-    del data[id]
-    print("Task deleted successfully (ID: " + str(id) + ")")
+def delete_task(task_id, data) -> None:
+    del data[task_id]
+    print("Task deleted successfully (ID: " + str(task_id) + ")")
 
-def mark_task(id, status, data) -> None:
+def mark_task(task_id, status, data) -> None:
     if status == "todo" or status == "done" or status == "in-progress":
-        data[id]['status'] = status
-        print("Task marked as " + status + " successfully (ID: " + str(id) + ")")
+        data[task_id]['status'] = status
+        print("Task marked as " + status + " successfully (ID: " + str(task_id) + ")")
     else:
         print("Unknown status: " + status)
 
@@ -111,14 +110,14 @@ def list_tasks(status, data) -> None:
                 if task != "Counter" and data[task]['status'] == "done":
                     print_task(task, data)
         case _:
-            print(status + " is an unknown commmand.")
+            print(status + " is an unknown command.")
 
-def print_task(id, data) -> None:
-    print("ID: " + str(id))
-    print("Description: " + data[id]['description'])
-    print("Status: " + data[id]['status'])
-    print("Created at: " + data[id]['createdAt'])
-    print("Updated at: " + data[id]['updatedAt'])
+def print_task(task_id, data) -> None:
+    print("ID: " + str(task_id))
+    print("Description: " + data[task_id]['description'])
+    print("Status: " + data[task_id]['status'])
+    print("Created at: " + data[task_id]['createdAt'])
+    print("Updated at: " + data[task_id]['updatedAt'])
     print("")
 
 if __name__ == '__main__':
